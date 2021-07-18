@@ -4,3 +4,9 @@
     font-weight: 400;
     line-height: 26px;
 }
+body {
+   background-image: url(https://images.unsplash.com/photo-1585701456523-3daa9cfee779?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNyb2NoZXR8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+}
