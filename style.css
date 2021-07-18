@@ -12,8 +12,6 @@ body {
    background-size: cover;
 }
 
-
-
 div{
    border: 1px solid black;
    width: 200px;
@@ -23,15 +21,31 @@ div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10px;
+    padding: 5px 30px;
     margin: 200px auto;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10px;
+    border: 1.5px solid;
 }
 
 .lead-button {
    margin: 5px 0;
-   padding: 5px;
+   padding: 5px 35%;
    border: 1px solid #000;
    background-color: #fff;
+   border-radius: 10px;
+   color: #f94144;
+   font-stretch: condensed;
+   font-family: 'Libre Baskerville', serif;
+   
+}
+
+.lead-button:hover {
+   cursor: pointer;
+   border: 1px solid #ffbe0b;
+   background-color: #d62828;
+   color: #ffbe0b;
 }
 
 footer{
