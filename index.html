@@ -7,7 +7,35 @@
    </head>
    
    <body>
-     
+     <section>
+         
+
+            <div class="card" id="captura" role="div">
+               <form action"#" method="POST">
+
+                  <label for="campo1">Nome:</label>
+                  <input type="text" nome="nome"/>
+                  <label for="campo2">E-mail:</label>
+                  <input type="email" nome="email"/>
+
+
+                  <button id="botao1" onclick="atualizacao()">Eu quero!</button>
+
+                  <script type="text/javascript">
+
+                     function atualizacao() {
+                        var texto1 = document.getElementById("captura");
+
+                        texto1.innerText = "Catálogo enviado para o e-mail informado!";
+                     }
+                  </script>
+
+               </form>
+            
+            </div>
+
+         
+      </section>
    </body>
    
 
