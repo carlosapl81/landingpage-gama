@@ -12,6 +12,28 @@ body {
    background-size: cover;
 }
 
+
+header {
+   height: 80px;
+   width: 100%;
+   background-color: #000;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1em;
+}
+
+header h1 {
+   /* text-transform: uppercase;*/
+    margin: 0;
+    padding: ;
+    text-align: center;
+    position: center:
+	 font-family: 'Cedarville Cursive', cursive;
+      
+} 
+
 div{
    border: 1px solid black;
    width: 200px;
@@ -31,7 +53,7 @@ div{
 
 .lead-button {
    margin: 5px 0;
-   padding: 5px 35%;
+   padding: 5px 65px;
    border: 1px solid #000;
    background-color: #fff;
    border-radius: 10px;
