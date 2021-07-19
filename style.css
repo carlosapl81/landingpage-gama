@@ -6,10 +6,11 @@
 }
 
 body {
-   background-image: url(https://images.unsplash.com/photo-1585701456523-3daa9cfee779?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNyb2NoZXR8ZW58MHx8MHx8&w=1000&q=80);
+   background-image: url(https://images.pexels.com/photos/768114/pexels-photo-768114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-repeat: no-repeat;
     background-position: center;
-   background-size: cover;
+    background-size: cover;
+}
 }
 
 
@@ -27,7 +28,7 @@ header {
 header h1 {
    /* text-transform: uppercase;*/
     margin: 0;
-    padding: ;
+    padding: 10px;
     text-align: center;
     position: center:
 	 font-family: 'Cedarville Cursive', cursive;
@@ -36,30 +37,30 @@ header h1 {
 
 div{
    border: 1px solid black;
-   width: 200px;
+   width: 700px;
 }
 
 .card{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    flex-direction: row;
     align-items: center;
-    padding: 5px 30px;
+    padding: 5px 10px;
     margin: 200px auto;
-    background-color: #000;
-    color: #FFF;
+    /* background-color: #000; */
     border-radius: 10px;
-    border: 1.5px solid;
+    /* border: 1.5px solid; */
+    background-color: rgba(117, 190, 218, 0.5);
 }
 
 .lead-button {
-   margin: 5px 0;
-   padding: 5px 65px;
-   border: 1px solid #000;
-   background-color: #fff;
-   border-radius: 10px;
-   color: #f94144;
-   font-stretch: condensed;
-   font-family: 'Libre Baskerville', serif;
+       margin: 5px 5px;
+    padding: 5px 30px;
+    border: 1px solid #fff;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    font-stretch: condensed;
+    font-family: 'Libre Baskerville', serif;
    
 }
 
@@ -70,8 +71,14 @@ div{
    color: #ffbe0b;
 }
 
+.blackimg{
+   width: 200px;
+   height:200px;
+   display: flex;
+}
+
 footer{
-    background-color: #494949;
+    background-color: #000;
     padding: 20px 0;
     text-align: center;
     color: #fff;
